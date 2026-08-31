@@ -46,5 +46,5 @@ test('escapes html in the requested path', async () => {
   const res = await request(app).get('/%3Cscript%3E');
 
   assert.strictEqual(res.status, 404);
-  assert.doesNotMatch(res.text, /<script>/);
+  assert.doesNotMatch(res.text, /<script>/i);
 });
