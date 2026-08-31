@@ -1,0 +1,23 @@
+{
+  "name": "any-status",
+  "version": "1.0.0",
+  "description": "Simple web server that will return any status code you need.",
+  "main": "src/app.js",
+  "scripts": {
+    "test": "node --test",
+    "start": "node src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ianmcodes/any-status.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^5.2.1"
+  },
+  "devDependencies": {
+    "supertest": "^7.2.2"
+  }
+}
